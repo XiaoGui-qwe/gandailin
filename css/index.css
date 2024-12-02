@@ -1,0 +1,444 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li{
+    list-style: none;
+}
+
+.top {
+    width: 100%;
+    height: 40px; 
+    background-color: #117cad;
+}
+
+.top-noe {
+    width: 100%;
+    height: 40px; 
+    font-family:-apple-system;
+    line-height:40px;
+     margin-bottom: 10px;
+}
+
+.top-noe a {
+    color: white;
+    font-size: 16px;
+    padding-left: 20px;
+}
+
+.top-noe a span {
+    font-weight: bold;
+}
+
+.top .top-two {
+    width: 1140px;
+    margin: 0 auto;
+    height: 40px;
+    line-height: 40px;
+    /* background-color: palegoldenrod; */
+    position: relative;
+}
+
+.top-two a img {
+    color: #117cad;
+    line-height:24px;
+    margin: 0px 32px -3.2px 0px;
+    float: left;
+    font-size: 30px;
+}
+
+.top-two .top-two-right  ul li{
+    float: left;
+    color:#000000b3;
+    font-family:-apple-system;
+    line-height:24px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    text-align:left;
+    position: relative;
+    top: 10px;
+}
+
+.top-three {
+    width: 100%;
+    height: 360px;
+    background-color:#2188b6;
+    background-size:25px;
+    color:#fff;
+    line-height:24px;
+    margin: 0px 0px 48px;
+    padding:32px 0px;
+    margin-top: 10px;
+}
+
+.top-three .top-three-noe {
+    width: 1140px;
+    margin: 0 auto;
+    height: 360px;
+}
+
+.top-three h2 {
+    margin: 0 auto;
+    color:#fff;
+    font-family:-apple-system;
+    font-size:72px;
+    font-weight:700;
+    line-height:79.2px;
+    text-shadow:#1476a2 5px 5px 0px;
+    text-transform:uppercas;
+}
+
+.top-three  .top-three-btn,
+.top-three  .top-three-btn2 {
+    width:100px;
+    height: 30px;
+    margin: 30px auto;
+    border-color:#1476a2;
+    border-radius:4.8px;
+    border-style:solid;
+    border-width:2px;
+    color:#fff;
+    display:inline-block;
+    font-family:-apple-system;
+    font-size:19.2px;
+    font-weight:700;
+    letter-spacing:0.48px;
+    line-height:30px;
+    padding: 18px 48px;
+    text-align:center;
+    text-transform:uppercase;
+    /* box-sizing: border-box; */
+}
+
+.top-three  .top-three-btn:hover,
+.top-three  .top-three-btn2:hover,
+.top-three  .top-three-btn3:hover {
+    background-color: white;
+    color: #1476a2;
+}
+
+.top-three .top-three-btn2 {
+    margin:0px 0px 0px 16px;
+}
+
+.top-three .top-three-btn3 {
+    height: 30px;
+    border-color:#1476a2;
+    border-radius:4.8px;
+    border-style:solid;
+    border-width:2px;
+    color:#fff;
+    display:inline-block;
+    font-family:-apple-system;
+    font-size:19.2px;
+    font-weight:700;
+    letter-spacing:0.48px;
+    line-height:30px;
+    margin:0px 0px 0px 16px;
+    padding:18px 36px;
+    text-align:center;
+    text-transform:uppercase;
+}
+
+.top-three  .top-three-btn4 {
+    width: 100px;
+    height: 30px;
+    margin: 30px auto;
+    color: white;
+    display: inline;
+    line-height: 24px;
+    margin-left: 20px;
+}
+
+.top-three .top-three-two {
+    width: 1110px;
+    height: 38px;
+    margin: 0 auto;
+    color: white;
+    line-height: 24px;
+   position: relative;
+   left: -15px;
+}
+
+.top-three .top-three-two a,
+.top-three .top-three-three a {
+    text-decoration: underline; 
+    color: white;
+}
+
+.content {
+    width: 100%;
+    margin: 0 auto;
+    height: 1200px;
+    margin-top: 500px;
+    
+}
+
+.content-one {
+    width: 1140px;
+    margin: 0 auto;
+    height: 380px;
+    position: relative;
+    border-bottom: 1px solid #5a5a5a;
+   
+}
+
+.content-one h2 {
+    color:#5a5a5a;
+    font-family:-apple-system;
+    font-size:44.8px;
+    font-weight:300;
+    letter-spacing:-0.8px;
+    line-height:44.8px;
+    margin:56px 0px 16px;
+    position: absolute;
+
+}
+
+.content-one  .content-text p {
+    width: 630px;
+    color:#6d767d;
+    font-family:-apple-system;
+    font-size:20.8px;
+    font-weight:300;
+    line-height:31.2px;
+    margin:10px 0px 16px;
+    position: absolute;
+    top: 100px;
+}
+
+.content-one img {
+    width: 433px;
+    height: 346px;
+    float: right;
+}
+
+.content .content-two {
+    width: 1140px;
+    margin: 0 auto;
+    height: 380px;
+    position: relative;
+    border-bottom: 1px solid #5a5a5a;
+    margin-top: 20px;
+}
+
+.content-two h2 {
+    color:#5a5a5a;
+    font-family:-apple-system;
+    font-size:44.8px;
+    font-weight:300;
+    letter-spacing:-0.8px;
+    line-height:44.8px;
+    margin:56px 0px 16px;
+    position: absolute;
+    right: 410px;
+}
+
+.content-two   p {
+    width: 630px;
+    color:#6d767d;
+    font-family:-apple-system;
+    font-size:20.8px;
+    font-weight:300;
+    line-height:31.2px;
+    margin:10px 0px 16px;
+    position: absolute;
+    top: 100px;
+    right: 0;
+}
+.content-two img {
+    width: 433px;
+    height: 346px;
+    float: left;
+}
+
+.content .content-three {
+    width: 1140px;
+    margin: 0 auto;
+    height: 380px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.content-three h2 {
+    color:#5a5a5a;
+    font-family:-apple-system;
+    font-size:44.8px;
+    font-weight:300;
+    letter-spacing:-0.8px;
+    line-height:44.8px;
+    margin:56px 0px 16px;
+    position: absolute;
+}
+
+.content-three   p {
+    width: 630px;
+    color:#6d767d;
+    font-family:-apple-system;
+    font-size:20.8px;
+    font-weight:300;
+    line-height:31.2px;
+    margin:10px 0px 16px;
+    position: absolute;
+    top: 100px;
+}
+
+.content-three img {
+    width: 433px;
+    height: 346px;
+    float: right;
+}
+
+.footer {
+    width: 100%;
+    height: 136px;
+    background-color: #2188b6;
+    position: relative;
+}
+
+.footer .footer-bg {
+    width: 1140px;
+    margin: 0 auto;
+    height: 136px;
+}
+
+.footer-one  h2{
+    width: 336px;
+    height: 72px;
+    color:#fff;
+    font-family:-apple-system;
+    font-size:48px;
+    font-weight:800;
+    line-height:72px;
+    text-align:center;
+    text-shadow:#1476a2 5px 5px 0px;
+    text-transform:uppercase;
+    position: relative;
+    top: 35px;
+}
+
+input{
+    width: 155px;
+    height: 64px;
+    background-color:#1476a2;
+    border: 1px solid #1476a2;
+    border-radius:4.8px;
+    border-style:solid;
+    border-width:2px;
+    color:#fff;
+    font-family:-apple-system;
+    font-size:19.2px;
+    font-weight:700;
+    letter-spacing:0.48px;
+    line-height:24px;
+    padding:18px 36px;
+    text-align:center;
+    text-transform:uppercase;
+     position: relative;
+     left: 1000px;
+     top: -35px;
+    }
+
+    .footer input:hover{
+        background-color: white;
+        color: #1476a2;
+    }
+
+    .footer-two {
+        width: 100%;
+        height: 500px;
+        margin: 0 auto;
+        height: 400px;
+    }
+
+    .footer-two .footer-two-one {
+         width: 1140px;
+         margin: 0 auto;
+         display: flex;
+         justify-content: space-between;
+         margin-top: 10px;
+        
+    }
+    
+    .footer-two .footer-two1,
+    .footer-two2,
+    .footer-two3{
+        width: 380px;
+        height: 128px;
+        color:
+    #5a5a5a;
+    line-height:
+    24px;
+    /* margin:
+    0px 0px 48px;
+    padding:
+    0px 15px; */
+   
+    }
+
+    .footer-two-one  h2,
+    .footer-two-two  h2{
+        width: 350px;
+        height: 35px;
+        color:#464a4c;
+        font-family:
+        -apple-system;
+        font-size:
+        32px;
+        font-weight:
+        300;
+        line-height:
+        35.2px;
+        /* margin:
+        0px 0px 8px; */
+    }
+
+    .footer-two-one  p ,
+    .footer-two-two  p{
+        width: 350px;
+        height: 53px;
+        color:
+        #6d767d;
+        font-family:
+        -apple-system;
+        font-size:
+        17.6px;
+        font-weight:
+        300;
+        line-height:
+        26.4px;
+        /* margin:
+        0px 0px 16px; */
+    }
+
+
+  .footer-two .footer-two-two {
+         width: 1140px;
+         margin: 0 auto;
+         display: flex;
+         justify-content: space-between;
+         margin-top: 10px;
+    }
+    
+    .footer-three {
+        width: 1140px;
+        margin: 0 auto;
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+
+    .footer-three a {
+        color: #359dce;
+    }
+
+    .footer-three a:hover {
+        color:black;
+        text-decoration: underline;
+    }
